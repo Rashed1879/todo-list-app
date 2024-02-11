@@ -47,9 +47,18 @@ const AddTodo = () => {
 					<option value="" disabled>
 						select priority
 					</option>
-					<option value="low">Low</option>
-					<option value="medium">Medium</option>
-					<option value="high">High</option>
+					<option value="low" className="text-green-500 font-bold">
+						Low
+					</option>
+					<option
+						value="medium"
+						className="text-orange-400 font-bold"
+					>
+						Medium
+					</option>
+					<option value="high" className="text-red-600 font-bold">
+						High
+					</option>
 				</select>
 				<div className="text-end">
 					<button
