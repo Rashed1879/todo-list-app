@@ -1,3 +1,5 @@
+import AddTodo from './components/AddTodo/AddTodo';
+
 function App() {
 	return (
 		<>
@@ -5,6 +7,7 @@ function App() {
 				<h1 className="text-4xl text-center font-semibold">
 					Todo List App
 				</h1>
+				<AddTodo />
 			</div>
 		</>
 	);
