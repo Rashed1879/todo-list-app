@@ -6,7 +6,7 @@ import TodoList from './components/TodoList/TodoList';
 function App() {
 	return (
 		<>
-			<div className="bg-[#A78295]">
+			<div className="bg-[#A78295] min-h-screen">
 				<div className="container mx-auto px-5">
 					<h1 className="text-4xl text-center font-semibold py-5">
 						Todo List App

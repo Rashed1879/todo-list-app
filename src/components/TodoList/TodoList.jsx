@@ -23,7 +23,7 @@ const TodoList = () => {
 
 	return (
 		<>
-			<div className="space-y-3">
+			<div className="space-y-3 pb-4">
 				<div>
 					<select
 						name="filter"
