@@ -34,9 +34,11 @@ const AddTodo = () => {
 		<>
 			<form
 				onSubmit={addTodo}
-				className="my-5 flex flex-col space-y-3 border border-emerald-400 p-5 bg-emerald-300 rounded-lg"
+				className="my-5 flex flex-col space-y-3 p-5 bg-[#331D2C] rounded-lg"
 			>
-				<h2 className="text-2xl font-semibold">Add Todo</h2>
+				<h2 className="text-2xl font-semibold text-[#EFE1D1]">
+					Add Todo
+				</h2>
 				<input
 					className="outline-none text-gray-700 border border-gray-500 p-2 rounded-lg"
 					name="todoTitle"
