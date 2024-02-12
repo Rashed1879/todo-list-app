@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { TodoContext } from '../../provider/TodoContext';
 
 const AddTodo = () => {
@@ -25,6 +25,10 @@ const AddTodo = () => {
 		setTodos(newTodos);
 		form.reset();
 	};
+
+	useEffect(() => {
+		localStorage.setItem('todos', JSON.stringify(todos));
+	}, [todos]);
 
 	return (
 		<>
